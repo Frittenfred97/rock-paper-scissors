@@ -36,7 +36,7 @@ function playRound(playerSelection, computerSelection) {
   } else if (playerSelection == "scissor" && computerSelection == "scissor") {
     return "Tie, scissor is equal to scissor";
   } else {
-    return "oh no, a dinnosaur wins this game";
+    return "oh no, a dinosaur wins this game";
   }
 }
 
