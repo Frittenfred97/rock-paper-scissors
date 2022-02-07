@@ -40,12 +40,6 @@ function playRound(playerSelection, computerSelection) {
   }
 }
 
-//const playerSelection = prompt("Rock, paper or scissor?");
-//const computerSelection = computerPlay();
-
-//let playRoundVar = playRound(playerSelection, computerSelection);
-//console.log(playRoundVar);
-
 function searchWin(playRoundVar) {
   if (playRoundVar.includes("Player")) {
     return "1 point for Player";
@@ -55,7 +49,6 @@ function searchWin(playRoundVar) {
     return "Tie. No points given";
   }
 }
-//console.log(searchWin(playRoundVar));
 
 let playerCount = 0;
 let computerCount = 0;
