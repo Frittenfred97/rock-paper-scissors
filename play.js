@@ -76,5 +76,4 @@ while (playerCount <5 && computerCount <5) {
   } else if (computerCount == 5) {
     console.log("The Computer has won the Game!");
   }
-
 }
