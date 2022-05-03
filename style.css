@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: #322C3C;
+}
+
+.titel {
+    font-family: "space mono";
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    color: #F9EAFF;
+    margin-top: 2em;
+   /* border: #F9EAFF solid; */
+}
+
+.button-all {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-top: 6em;
+    gap: 15em;
+    border: none;
+    height: fit-content;
+
+}
+
+.btn {
+    font-size: 8em;
+    text-size-adjust: 10em;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 10em;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+#roundNote {
+    font-family: "space mono";
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: "space mono";
+    text-align: center;
+    color: #F9EAFF;
+    margin-top: 1em;
+}
+
+#round {
+    font-family: "space mono";
+    font-size: 1.2em;
+    color: #F9EAFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 1em;
+
+}
+
+.count {
+    font-family: "space mono";
+    font-size: 2em;
+    color: #F9EAFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 1em;
+
+}

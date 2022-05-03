@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/play.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/test.js" defer></script>
 </head>
 <body>
+    <div class="header">
+        <h1 class="titel">
+            Rock • Paper • Scissor
+        </h1>
+    </div>
+    <div class="button-all">
+        <button id="rock_btn" class="btn">✊</button> <!--Rock Emoji-->
+        <button id="paper_btn" class="btn">✋</button> <!--Paper Emoji-->
+        <button id="scissor_btn" class="btn">✌️</button> <!--Scissor Emoji-->
+    </div>
     <div>
-        <h1>Rock Paper Scissors</h1>
+        <p id="roundNote"></p>
+    </div>
+    <div class="count">
+        <p id="countUser"></p>
+        <p id="countComputer"></p>
     </div>
 </body>
 </html>
