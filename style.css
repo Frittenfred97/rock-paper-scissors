@@ -1,45 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 body {
-    background-color: #322C3C;
+  background-color: #322c3c;
 }
 
 .titel {
-    font-family: "space mono";
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    text-align: center;
-    color: #F9EAFF;
-    margin-top: 2em;
-   /* border: #F9EAFF solid; */
+  font-family: "space mono";
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  color: #f9eaff;
+  margin-top: 1em;
 }
 
 .button-all {
-
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    flex-shrink: 1;
-    margin-top: 6em;
-    gap: 15em;
-    border: none;
-    height: fit-content;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-top: 6em;
+  gap: 15em;
+  border: none;
+  height: fit-content;
 }
 
 .btn {
-    font-size: 8em;
-    text-size-adjust: 10em;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: 10em;
-    cursor: pointer;
-    overflow: hidden;
-    transition: all .3s ease-in-out;
+  font-size: 8em;
+  text-size-adjust: 10em;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 10em;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
@@ -47,39 +44,70 @@ body {
 }
 
 #roundNote {
-    font-family: "space mono";
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    font-family: "space mono";
-    text-align: center;
-    color: #F9EAFF;
-    margin-top: 1em;
+  font-family: "space mono";
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: "space mono";
+  text-align: center;
+  color: #f9eaff;
+  margin-top: 1em;
 }
 
 #round {
-    font-family: "space mono";
-    font-size: 1.2em;
-    color: #F9EAFF;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 1em;
-
+  font-family: "space mono";
+  font-size: 1.2em;
+  color: #f9eaff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 1em;
 }
 
 .count {
-    font-family: "space mono";
-    font-size: 2em;
-    color: #F9EAFF;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 1em;
-
+  font-family: "space mono";
+  font-size: 2em;
+  color: #f9eaff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 1em;
 }
 
+#restart {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+
+#restart_btn {
+  font-family: "space mono";
+  font-size: 2em;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #e9a917;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.3em 0.6em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  touch-action: manipulation;
+}
+
+#restart_btn:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  #restart_btn {
+    padding: 0.3em 0.8em;
+  }
+}
